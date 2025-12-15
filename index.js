@@ -64,8 +64,9 @@ cron.schedule("0 9 1 * *", async () => {
     `Desde el **1 de febrero de 2025** 🥰`
   );
 });
-
 client.login(process.env.TOKEN);
+
+
 
 
 
