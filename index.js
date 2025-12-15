@@ -10,7 +10,7 @@ const client = new Client({
 });
 
 // CONFIGURA ESTO
-const CHANNEL_ID = "TU_CANAL_ID";
+const CHANNEL_ID = "1450004520066089051";
 const FECHA_INICIO = new Date(2025, 1, 1); // 1 Febrero 2025
 
 client.once("ready", () => {
@@ -66,6 +66,7 @@ cron.schedule("0 9 1 * *", async () => {
 });
 
 client.login(process.env.TOKEN);
+
 
 
 
